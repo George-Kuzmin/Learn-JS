@@ -57,19 +57,45 @@
 // let result = (a + b < 4) ? "мало" : "много";
 
 // задание 5
-let login = prompt("Назовись, путник", "")
+// let login = prompt("Назовись, путник", "")
+//
+// let message = login === "Сотрудник"
+//     ? "Привет"
+//     : login === "Директор"
+//         ? "Здравствуйте"
+//         : login ===  ""
+//             ? "Нет логина"
+//             : ""
+//
+// alert(message)
 
-let message = login === "Сотрудник"
-    ? "Привет"
-    : login === "Директор"
-        ? "Здравствуйте"
-        : login ===  ""
-            ? "Нет логина"
-            : ""
+// тема логические операторы
+// задание 6
 
-alert(message)
+// if (age >= 14 && age <= 90);
 
+// задание 7
+// if (!age >= 14 || !age <= 90);
+//
+// if (age <= 14 || age >= 90);
 
+const code = prompt("Введите логин", "")
+
+if (code == null) {
+    alert("Отменено")
+} else if (code === "Админ") {
+    const password = prompt("Пароль!", "")
+
+    if (password === "Я главный") {
+        alert("Здравствуйте!")
+    } else if (password == null) {
+        alert("Отменено")
+    } else {
+        alert("Неверный пароль")
+    }
+} else {
+    alert("Я вас не знаю")
+}
 
 
 
