@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 // alert("дарова, отец")
 // alert("не нажимай окей))")
@@ -79,38 +79,167 @@
 //
 // if (age <= 14 || age >= 90);
 
-const code = prompt("Введите логин", "")
+//царь задание, крутое
+// const code = prompt("Введите логин", "")
+//
+// if (code == null) {
+//     alert("Отменено")
+// } else if (code === "Админ") {
+//     const password = prompt("Пароль!", "")
+//
+//     if (password === "Я главный") {
+//         alert("Здравствуйте!")
+//     } else if (password == null) {
+//         alert("Отменено")
+//     } else {
+//         alert("Неверный пароль")
+//     }
+// } else {
+//     alert("Я вас не знаю")
+// }
 
-if (code == null) {
-    alert("Отменено")
-} else if (code === "Админ") {
-    const password = prompt("Пароль!", "")
+// задание на циклы for и while
+// При помощи цикла for выведите чётные числа от 2 до 10.
 
-    if (password === "Я главный") {
-        alert("Здравствуйте!")
-    } else if (password == null) {
-        alert("Отменено")
-    } else {
-        alert("Неверный пароль")
-    }
-} else {
-    alert("Я вас не знаю")
-}
+// for (let number = 2; number <= 10; number++) {
+//     if (number % 2 == 0) {
+//         alert (`number ${number}!`)
+//     }
+// }
+//
+// for (let i = 2; i <= 10; i++) {
+//     if (i % 2 == 0) {
+//         alert( i );
+//     }
+// }
+
+// for (let number = 2; number <= 10; number++) {
+//     number % 2 === 0 && alert(number)
+// }
+//
+// const browser = "Edge";
+//
+// if (browser === "Edge") {
+//     alert( "You've got the Edge!" );
+// } else if (
+//     browser === "Chrome"
+//     || browser === "Firefox"
+//     || browser === "Safari"
+//     || browser === "Opera"
+// ) {
+//     alert( 'Okay we support these browsers too' );
+// } else {
+//     alert( 'We hope that this page looks ok!' );
+// }
+//
+// switch (browser) {
+//     case 'Edge':
+//         alert( "You've got the Edge!" );
+//         break;
+//
+//     case 'Chrome':
+//     case 'Firefox':
+//     case 'Safari':
+//     case 'Opera':
+//         alert( 'Okay we support these browsers too' );
+//         break;
+//
+//     default:
+//         alert( 'We hope that this page looks ok!' );
+// }
+//
+//
+//
+// const number = +prompt('Введите число между 0 и 3', '');
+//
+// if (number === 0) {
+//     alert('Вы ввели число 0');
+// }
+//
+// if (number === 1) {
+//     alert('Вы ввели число 1');
+// }
+//
+// if (number === 2 || number === 3) {
+//     alert('Вы ввели число 2, а может и 3');
+// }
+//
+//
+//
+// switch (number) {
+//     case 0:
+//         alert('Вы ввели число 0')
+//         break;
+//
+//     case 1:
+//         alert('Вы ввели число 1')
+//         break;
+//
+//     case 2:
+//     case 3:
+//         alert('Вы ввели число 2, а может и 3');
+//         break;
+//
+//     default: break;
+// }
 
 
+// задание по функциям
+
+// function checkAge(age) {
+//     if (age > 18) {
+//         return true;
+//     } else {
+//         return confirm('Родители разрешили?');
+//     }
+// }
+
+// function checkAge(age) {
+//     return age > 18 ? true : confirm("Родители разрешили?")
+// }
+
+// function checkAge(age) {
+//    return (age > 18) || confirm("Родители разрешили?")
+// }
+//
+// checkAge(18)
 
 
+// // другое задание по функциям
+// function min(a,b) {
+//     if (a < b) {
+//         return a
+//     } else {
+//         return b
+//     }
+// }
+// function min(a,b) {
+//     return a < b ? a : b
+// }
+// function min(a,b) {
+//     return (a < b) || b
+// }
 
+// // и ещё одно задание по функциям
 
+// function pow (x,n) {
+//     let exp = x ** n;
+//     return (exp);
+// }
 
+// дополнительное задание
 
-
-
-
-
-
-
-
-
+// let x = prompt("Введите число", "")
+// let n = prompt("Сколько раз будем его умножать на себя?", "")
+//
+// function pow (x,n) {
+//     return x ** n;
+// }
+//
+// if (n < 1) {
+//     alert("Пишите только натуральные значения")
+// } else {
+//     pow(x,n)
+// }
 
 
